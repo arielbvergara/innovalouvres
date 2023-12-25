@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* <Sidebar /> */}
         <Header />
-        {children}
+        <div className='mt-20'>
+          {children}
+        </div>
       </body>
     </html>
   )
