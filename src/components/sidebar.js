@@ -1,7 +1,7 @@
 export default function Sidebar({}) {
     return (
-        <div>
-            I'm a Sidebar
+        <div className="hidden">
+            SIDEBAR
         </div>
     )
 }

@@ -1,7 +1,7 @@
 export default function Banner({}) {
     return (
         <div>
-            I'm a banner 
+            Banner
         </div>
     )
 }
