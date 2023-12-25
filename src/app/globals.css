@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 :root {
+  --orange: #D3671F;
+  --light-orange: #D3941F;
+  --grey: #4e4e4e;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +27,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+* {
+  color: var(--grey) !important;
 }
