@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           <Sidebar />
           <div className='flex flex-col'>
             <Header />
-            <div className='flex text-grey'>
+            <div className='text-grey'>
               {children}
             </div>
           </div>

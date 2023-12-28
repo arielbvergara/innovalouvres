@@ -4,8 +4,6 @@ import CarouselHome from "./carouselHome";
 
 export default function Banner({}) {
     return (
-        <div>
-           <CarouselHome />
-        </div>
+        <CarouselHome />
     )
 }
