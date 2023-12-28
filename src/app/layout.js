@@ -17,9 +17,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <App>
           <Sidebar />
-          <Header />
-          <div className='mt-20 text-grey'>
-            {children}
+          <div className='flex flex-col'>
+            <Header />
+            <div className='flex text-grey'>
+              {children}
+            </div>
           </div>
         </App>
       </body>

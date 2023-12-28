@@ -70,7 +70,7 @@ export default function CarouselHome({}) {
     }
 
     return (
-        <Carousel className="hola">
+        <Carousel>
             {
                 GetSlides()
             }
