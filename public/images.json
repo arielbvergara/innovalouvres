@@ -1,0 +1,50 @@
+{
+    "images":[
+        {
+            "id":1,
+            "name":"image1",
+            "src":"/banner-1.jpg",
+            "content":{
+                "title":"Captivating Garden Rooftop",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            },
+            "type":"carousel"
+        },
+        {
+            "id":2,
+            "name":"image2",
+            "src":"/banner-2.jpg",
+            "content":{
+                "title":"Futuristic Rooftop Design",
+                "description":"Step into Tomorrow's Living with Rooftop Oasis Innovations: Affordable, Green, and Stylish!"
+            },
+            "type":"carousel"
+        },
+        {
+            "id":3,
+            "name":"image3",
+            "src":"/banner-3.jpg",
+            "content":{
+                "title":"Skilled Workers Building Rooftop Garden",
+                "description":"Urban Eden Creations: Transforming Spaces into Lush Gardens - Affordable, Eco-Friendly, and Expertly Crafted!"
+            },
+            "type":"carousel"
+            
+        },
+        {
+            "id":4,
+            "name":"image4",
+            "src":"/banner-4.jpg"
+        },
+        {
+            "id":5,
+            "name":"image5",
+            "src":"/banner-5.jpg"
+        },
+        {
+            "id":6,
+            "name":"image6",
+            "src":"/banner-6.jpg"
+        }      
+    ]
+}

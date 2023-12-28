@@ -1,7 +1,11 @@
+"use client";
+ 
+import CarouselHome from "./carouselHome";
+
 export default function Banner({}) {
     return (
         <div>
-            Banner
+           <CarouselHome />
         </div>
     )
 }
