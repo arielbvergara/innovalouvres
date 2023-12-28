@@ -1,12 +1,11 @@
 "use client";
  
-import { Button } from "@material-tailwind/react";
-
+import CarouselHome from "./carouselHome";
 
 export default function Banner({}) {
     return (
         <div>
-            <Button>Hola</Button>
+           <CarouselHome />
         </div>
     )
 }
