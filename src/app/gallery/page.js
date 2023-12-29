@@ -23,12 +23,12 @@ export default function Gallery({}) {
 
     return (
         <div className="container mx-auto">
-            <header class="py-8 text-center">
-                <h1 class="text-4xl font-bold text-orange">Gallery</h1>
+            <header className="py-8 text-center">
+                <h1 className="text-4xl font-bold text-orange">Gallery</h1>
             </header>
 
-            <section class="mx-4 mb-8">
-                <p class="text-lg">
+            <section className="mx-4 mb-8">
+                <p className="text-lg">
                     Explore our gallery to see the beauty of our work. From garden rooftops to [other services], each project
                     is a testament to our commitment to excellence and innovation.
                 </p>
@@ -52,7 +52,7 @@ export default function Gallery({}) {
                 }
             </section>
 
-            <footer class="py-8 text-center text-gray-500">
+            <footer className="py-8 text-center text-gray-500">
                 <p>Thank you for exploring our gallery. For more information or to start your project, contact us!</p>
             </footer>
         </div>
