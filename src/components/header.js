@@ -13,7 +13,7 @@ export default function Header({}) {
     console.log(path)
     
     return (
-        <div className="left-0 top-0 z-50 flex size-full h-[--header-height] justify-between bg-white text-grey">
+        <div className="left-0 top-0 z-50 flex size-full h-[--header-height] justify-between bg-white text-grey shadow-md">
            <div className="logo mx-4 my-auto flex-none sm:mx-auto">
             <Link href="/">
                 <Image
