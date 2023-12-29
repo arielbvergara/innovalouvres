@@ -10,14 +10,15 @@ export default function CarouselHome({}) {
 
     useEffect(() => {
         const fetchData = async () => {
-        try {
-            const response = await fetch('/images.json');
-            const jsonData = await response.json();
-            setData(jsonData.images.filter((word) => word.type === "carousel"));
-            
-        } catch (error) {
-            console.error('Error fetching data:', error);
-        }
+            console.log("fetching data");
+            try {
+                const response = await fetch('/images.json');
+                const jsonData = await response.json();
+                setData(jsonData.images.filter((word) => word.type === "carousel"));
+                
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
         };
 
         fetchData();
