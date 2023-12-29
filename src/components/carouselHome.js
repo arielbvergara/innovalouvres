@@ -10,7 +10,7 @@ export default function CarouselHome({}) {
 
     useEffect(() => {
         const fetchData = async () => {
-            console.log("fetching data");
+            
             try {
                 const response = await fetch('/images.json');
                 const jsonData = await response.json();
@@ -50,7 +50,7 @@ export default function CarouselHome({}) {
                                 >
                                     {item.content.description}
                                 </Typography>
-                                <div className="mt-12 flex hidden gap-2 sm:block">
+                                <div className="mt-12 flex justify-center gap-2 sm:justify-start">
                                     <Link href="/contact">
                                         <Button size="lg" color="white">
                                             Contact us
