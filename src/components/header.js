@@ -17,7 +17,7 @@ export default function Header({}) {
                     />
             </Link>
            </div>
-           <div className="pages max-sm:hidden m-auto flex">
+           <div className="pages m-auto flex hidden sm:block">
                 <Link href="/" className="m-2 hover:text-light-orange md:m-4 lg:m-6">
                     Home
                 </Link>
