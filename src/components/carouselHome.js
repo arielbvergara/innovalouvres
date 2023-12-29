@@ -70,10 +70,19 @@ export default function CarouselHome({}) {
     }
 
     return (
+        data ? 
         <Carousel>
             {
                 GetSlides()
             }
         </Carousel>
+        :
+        <div className="flex h-96 w-full items-center justify-center">
+            <Typography
+                variant="h5"
+            >
+                Loading...
+            </Typography>
+        </div>
     )
 }
