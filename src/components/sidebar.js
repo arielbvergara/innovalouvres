@@ -44,7 +44,7 @@ import Link from "next/link";
                         </Link>
                     </ListItem>
                     <ListItem onClick={() => setSidebarActive(false)}>
-                        <Link href="/gallery" className="flex">
+                        <Link href="/about" className="flex">
                             <ListItemPrefix>
                                 <FontAwesomeIcon icon={faPeopleGroup} className="h-5 cursor-pointer"/>
                             </ListItemPrefix>
