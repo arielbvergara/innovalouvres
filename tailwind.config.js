@@ -14,7 +14,7 @@ module.exports = withMT({
         'orange': '#D3671F',
         'light-orange': '#D3941F',
         'grey': '#4e4e4e'
-      },
+      }
     },
   },
   plugins: [],
