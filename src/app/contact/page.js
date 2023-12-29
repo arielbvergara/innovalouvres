@@ -1,6 +1,6 @@
 export default function Contact({}) {
     return (
-        <div className="p-5">
+        <div className="container mx-auto">
             <header class="py-8 text-center">
                 <h1 class="text-4xl font-bold text-orange">Contact Us</h1>
             </header>
@@ -30,12 +30,12 @@ export default function Contact({}) {
             <section class="mx-4 mb-8">
                 <h2 class="mb-4 text-2xl font-semibold text-orange">Contact Form</h2>
                 <form action="#" method="post" class="grid grid-cols-1 gap-4 md:grid-cols-2">
-                    <div class="mb-4">
+                    <div class="col-span-2 mb-4 sm:col-span-1">
                         <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
                         <input type="text" id="name" name="name" required
                             class="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none" />
                     </div>
-                    <div class="mb-4">
+                    <div class="col-span-2 mb-4 sm:col-span-1">
                         <label for="email" class="block text-sm font-medium text-gray-700">Your Email</label>
                         <input type="email" id="email" name="email" required
                             class="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none" />

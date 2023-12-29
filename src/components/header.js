@@ -6,14 +6,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
 
-export default function Header({}) {
+export default function Header({sidebarActive, setSidebarActive}) {
 
     const path = usePathname()
-
-    console.log(path)
     
     return (
-        <div className="left-0 top-0 z-50 flex size-full h-[--header-height] justify-between bg-white text-grey shadow-md">
+        <div className="left-0 top-0 flex size-full h-[--header-height] justify-between bg-white text-grey shadow-md">
            <div className="logo mx-4 my-auto flex-none sm:mx-auto">
             <Link href="/">
                 <Image
@@ -40,7 +38,7 @@ export default function Header({}) {
                 </Link>
            </div>
            <div className="mx-4 my-auto flex sm:hidden">
-                <FontAwesomeIcon icon={faBars} className="h-7 cursor-pointer"/>
+                <FontAwesomeIcon icon={faBars} className="h-7 cursor-pointer" onClick={() => setSidebarActive(!sidebarActive)}/>
            </div>
         </div>
     )

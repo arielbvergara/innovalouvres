@@ -1,6 +1,6 @@
 export default function About({}) {
     return (
-        <div classNameName="p-5">
+        <div className="container mx-auto">
             <header className="py-8 text-center">
                 <h1 className="text-4xl font-bold text-orange">Welcome to Innovalouvres</h1>
             </header>

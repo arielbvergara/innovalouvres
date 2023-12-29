@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Gallery({}) {
@@ -23,39 +22,39 @@ export default function Gallery({}) {
     }, []); // Empty dependency array ensures that the effect runs only once when the component mounts
 
     return (
-<div>
-        <header class="py-8 text-center">
-            <h1 class="text-4xl font-bold text-orange">Gallery</h1>
-        </header>
+        <div className="container mx-auto">
+            <header class="py-8 text-center">
+                <h1 class="text-4xl font-bold text-orange">Gallery</h1>
+            </header>
 
-        <section class="mx-4 mb-8">
-            <p class="text-lg">
-                Explore our gallery to see the beauty of our work. From garden rooftops to [other services], each project
-                is a testament to our commitment to excellence and innovation.
-            </p>
-        </section>
+            <section class="mx-4 mb-8">
+                <p class="text-lg">
+                    Explore our gallery to see the beauty of our work. From garden rooftops to [other services], each project
+                    is a testament to our commitment to excellence and innovation.
+                </p>
+            </section>
 
-        <section className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3">
-        
-            {data ? (data.map(({ src }, index) => (
-                <div key={index}>
-                    <img
-                        className="h-40 w-full max-w-full rounded-lg object-cover object-center"
-                        src={src}
-                        alt="gallery-photo"
-                    />
-                </div>
-                ))) : (
-                    <div className="flex items-center justify-center">
-                        Loading
+            <section className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3">
+            
+                {data ? (data.map(({ src }, index) => (
+                    <div key={index}>
+                        <img
+                            className="h-40 w-full max-w-full rounded-lg object-cover object-center"
+                            src={src}
+                            alt="gallery-photo"
+                        />
                     </div>
-                )
-            }
-        </section>
+                    ))) : (
+                        <div className="flex items-center justify-center">
+                            Loading
+                        </div>
+                    )
+                }
+            </section>
 
-        <footer class="py-8 text-center text-gray-500">
-            <p>Thank you for exploring our gallery. For more information or to start your project, contact us!</p>
-        </footer>
+            <footer class="py-8 text-center text-gray-500">
+                <p>Thank you for exploring our gallery. For more information or to start your project, contact us!</p>
+            </footer>
         </div>
         
     );
