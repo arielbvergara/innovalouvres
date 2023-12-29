@@ -34,7 +34,7 @@ export default function CarouselHome({}) {
                             className="h-full w-full object-cover"
                         />
                         <div className="absolute inset-0 grid h-full w-full items-center bg-black/30">
-                            <div className="text-center sm:w-3/4 sm:pl-12 sm:text-start md:w-2/4 md:pl-20 lg:pl-32">
+                            <div className="p-5 text-center sm:w-3/4 sm:pl-12 sm:text-start md:w-2/4 md:pl-20 lg:pl-32">
                                 <Typography
                                     variant="h1"
                                     color="white"
@@ -45,7 +45,7 @@ export default function CarouselHome({}) {
                                 <Typography
                                     variant="lead"
                                     color="white"
-                                    className="sm-12 hidden text-sm opacity-80 sm:block md:text-base lg:text-lg"
+                                    className="sm-12 text-sm opacity-80 md:text-base lg:text-lg"
                                 >
                                     {item.content.description}
                                 </Typography>
