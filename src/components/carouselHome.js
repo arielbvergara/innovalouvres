@@ -71,7 +71,7 @@ export default function CarouselHome({}) {
 
     return (
         data ? 
-        <Carousel className="h-[--body-min-height]">
+        <Carousel>
             {
                 GetSlides()
             }
