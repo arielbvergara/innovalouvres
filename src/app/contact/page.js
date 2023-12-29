@@ -7,7 +7,7 @@ export default function Contact({}) {
 
             <section class="mx-4 mb-8">
                 <p class="text-lg">
-                    We'd love to hear from you! Whether you have a question about our services, want to discuss a project, or
+                    We wouldd love to hear from you! Whether you have a question about our services, want to discuss a project, or
                     just want to say hello, feel free to reach out to us.
                 </p>
             </section>
@@ -23,7 +23,7 @@ export default function Contact({}) {
 
             <section class="mx-4 mb-8">
                 <h2 class="mb-4 text-2xl font-semibold text-orange">Get in Touch</h2>
-                <p class="text-lg">Feel free to use the contact form below or reach out to us via email or phone. We'll get back
+                <p class="text-lg">Feel free to use the contact form below or reach out to us via email or phone. We will get back
                     to you as soon as possible!</p>
             </section>
 
