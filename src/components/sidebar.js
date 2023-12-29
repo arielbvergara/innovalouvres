@@ -4,9 +4,7 @@ import {
     Typography,
     List,
     ListItem,
-    ListItemPrefix,
-    ListItemSuffix,
-    Chip,
+    ListItemPrefix
   } from "@material-tailwind/react";
   
   import { faHome, faBars, faImage, faPeopleGroup, faMessage } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +15,7 @@ import Link from "next/link";
     
     return (
         sidebarActive &&
-            <Card className="absolute z-50 h-[100vh] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 duration-300">
+            <Card className="absolute z-50 h-[100vh] w-full p-4 shadow-xl shadow-blue-gray-900/5 duration-300 sm:max-w-[20rem]">
                 <div className="mb-2 flex p-4">
                     <Typography variant="h5" className="text-orange">
                         Innovalouvres
