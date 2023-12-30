@@ -3,7 +3,7 @@
         {
             "id":1,
             "name":"image1",
-            "src":"/banner-1.jpg",
+            "src":"/roof1.jpg",
             "content":{
                 "title":"Captivating Garden Rooftop",
                 "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
@@ -13,7 +13,7 @@
         {
             "id":2,
             "name":"image2",
-            "src":"/banner-2.jpg",
+            "src":"/roof2.jpg",
             "content":{
                 "title":"Futuristic Rooftop Design",
                 "description":"Step into Tomorrow's Living with Rooftop Oasis Innovations: Affordable, Green, and Stylish!"
@@ -23,7 +23,7 @@
         {
             "id":3,
             "name":"image3",
-            "src":"/banner-3.jpg",
+            "src":"/roof3.jpg",
             "content":{
                 "title":"Skilled Workers Building Rooftop Garden",
                 "description":"Urban Eden Creations: Transforming Spaces into Lush Gardens - Affordable, Eco-Friendly, and Expertly Crafted!"
@@ -38,7 +38,7 @@
         {
             "id":4,
             "name":"image4",
-            "src":"/banner-4.jpg",
+            "src":"/roof4.jpg",
             "cardContent":{
                 "title":"Captivating Garden Rooftop",
                 "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
@@ -47,42 +47,47 @@
         {
             "id":5,
             "name":"image5",
-            "src":"/banner-5.jpg"
+            "src":"/roof5.jpg"
         },
         {
             "id":6,
             "name":"image6",
-            "src":"/banner-6.jpg"
+            "src":"/roof6.jpg"
         },
         {
             "id":7,
             "name":"image7",
-            "src":"/roof-1.jpg"
+            "src":"/roof7.jpg"
         },
         {
             "id":8,
             "name":"image8",
-            "src":"/roof-2.jpg"
+            "src":"/roof8.jpg"
         },
         {
             "id":9,
             "name":"image9",
-            "src":"/roof-3.jpg"
+            "src":"/roof9.jpg"
         },
         {
             "id":10,
             "name":"image10",
-            "src":"/roof-4.jpg"
+            "src":"/roof10.jpg"
         },
         {
             "id":11,
             "name":"image11",
-            "src":"/roof-5.jpg"
+            "src":"/roof11.jpg"
         },
         {
             "id":12,
             "name":"image12",
-            "src":"/roof-6.jpg"
+            "src":"/roof12.jpg"
+        },
+        {
+            "id":13,
+            "name":"image13",
+            "src":"/roof13.jpg"
         }
     ]
 }
