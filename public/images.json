@@ -28,13 +28,21 @@
                 "title":"Skilled Workers Building Rooftop Garden",
                 "description":"Urban Eden Creations: Transforming Spaces into Lush Gardens - Affordable, Eco-Friendly, and Expertly Crafted!"
             },
-            "type":"carousel"
+            "type":"carousel",
+            "cardContent":{
+                "title":"Captivating Garden Rooftop",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            }
             
         },
         {
             "id":4,
             "name":"image4",
-            "src":"/banner-4.jpg"
+            "src":"/banner-4.jpg",
+            "cardContent":{
+                "title":"Captivating Garden Rooftop",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            }
         },
         {
             "id":5,
