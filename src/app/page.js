@@ -1,7 +1,7 @@
-import Banner from "@/components/banner";
+import CarouselHome from "@/components/carouselHome";
 
 export default function Home() {
   return (
-    <Banner />
+    <CarouselHome />
   )
 }

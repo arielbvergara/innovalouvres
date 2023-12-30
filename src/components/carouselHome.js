@@ -3,6 +3,7 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Loading from "./loading";
 
 export default function CarouselHome({}) {
 
@@ -78,12 +79,6 @@ export default function CarouselHome({}) {
             }
         </Carousel>
         :
-        <div className="flex h-96 w-full items-center justify-center">
-            <Typography
-                variant="h5"
-            >
-                Loading...
-            </Typography>
-        </div>
+        <Loading />
     )
 }
