@@ -1,5 +1,6 @@
 'use client'
 
+import Loading from "@/components/loading";
 import { useEffect, useState } from "react";
 
 export default function Gallery({}) {
@@ -34,23 +35,27 @@ export default function Gallery({}) {
                 </p>
             </section>
 
-            <section className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3">
             
-                {data ? (data.map(({ src }, index) => (
-                    <div key={index}>
-                        <img
-                            className="h-40 w-full max-w-full rounded-lg object-cover object-center"
-                            src={src}
-                            alt="gallery-photo"
-                        />
-                    </div>
-                    ))) : (
-                        <div className="flex items-center justify-center">
-                            Loading
-                        </div>
+            
+                {data ? (
+                    <section className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3">
+                        {
+                        data.map(({ src }, index) => (
+                            <div key={index}>
+                                <img
+                                    className="h-40 w-full max-w-full rounded-lg object-cover object-center"
+                                    src={src}
+                                    alt="gallery-photo"
+                                />
+                            </div>
+                            ))
+                        }
+                    </section>
+                    ) : (
+                        <Loading />
                     )
                 }
-            </section>
+            
 
             <footer className="py-8 text-center text-gray-500">
                 <p>Thank you for exploring our gallery. For more information or to start your project, contact us!</p>

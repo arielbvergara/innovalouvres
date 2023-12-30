@@ -45,6 +45,36 @@
             "id":6,
             "name":"image6",
             "src":"/banner-6.jpg"
-        }      
+        },
+        {
+            "id":7,
+            "name":"image7",
+            "src":"/roof-1.jpg"
+        },
+        {
+            "id":8,
+            "name":"image8",
+            "src":"/roof-2.jpg"
+        },
+        {
+            "id":9,
+            "name":"image9",
+            "src":"/roof-3.jpg"
+        },
+        {
+            "id":10,
+            "name":"image10",
+            "src":"/roof-4.jpg"
+        },
+        {
+            "id":11,
+            "name":"image11",
+            "src":"/roof-5.jpg"
+        },
+        {
+            "id":12,
+            "name":"image12",
+            "src":"/roof-6.jpg"
+        }
     ]
 }
