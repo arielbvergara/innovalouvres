@@ -8,7 +8,11 @@
                 "title":"Captivating Garden Rooftop",
                 "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
             },
-            "type":"carousel"
+            "type":"carousel",
+            "cardContent":{
+                "title":"Captivating Garden Rooftop",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            }
         },
         {
             "id":2,
@@ -18,7 +22,11 @@
                 "title":"Futuristic Rooftop Design",
                 "description":"Step into Tomorrow's Living with Rooftop Oasis Innovations: Affordable, Green, and Stylish!"
             },
-            "type":"carousel"
+            "type":"carousel",
+            "cardContent":{
+                "title":"Captivating Garden Rooftop",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            }
         },
         {
             "id":3,
@@ -57,7 +65,11 @@
         {
             "id":7,
             "name":"image7",
-            "src":"/roof7.jpg"
+            "src":"/roof7.jpg",
+            "cardContent":{
+                "title":"Captivating Garden Rooftop",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            }
         },
         {
             "id":8,

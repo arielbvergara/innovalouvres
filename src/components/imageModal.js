@@ -7,7 +7,7 @@ import {
   Card,
 } from "@material-tailwind/react";
  
-export function ImageModal({src, title, description}) {
+export function ImageModal({src, title, description, alt}) {
   const [open, setOpen] = React.useState(false);
    
   const handleOpen = () => setOpen((cur) => !cur);
@@ -19,7 +19,7 @@ export function ImageModal({src, title, description}) {
         onClick={handleOpen}
       >
         <img
-          alt="nature"
+          alt={alt}
           className="h-full w-full object-cover object-center"
           src={src}
         />
@@ -28,8 +28,8 @@ export function ImageModal({src, title, description}) {
         
         <DialogBody>
           <img
-            alt="nature"
-            className="h-[48rem] w-full rounded-lg object-contain object-center"
+            alt={alt}
+            className="max-h-[48rem] w-full rounded-lg object-contain object-center"
             src={src}
           />
         </DialogBody>

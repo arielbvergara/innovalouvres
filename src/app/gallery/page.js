@@ -40,7 +40,7 @@ export default function Gallery({}) {
                 <section className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3">
                     {
                         data.map(({ src, cardContent }, index) => (
-                            <ImageModal src={src} title={cardContent?.title} description={cardContent?.description} key={index}/>
+                            <ImageModal src={src} title={cardContent?.title} description={cardContent?.description} alt={cardContent?.alt ?? "roof"} key={index}/>
                         ))
                     }
                 </section>
