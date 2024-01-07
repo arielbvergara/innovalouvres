@@ -24,7 +24,7 @@ export default function Gallery({}) {
     }, []); // Empty dependency array ensures that the effect runs only once when the component mounts
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto min-h-[--body-min-height]">
             <header className="py-8 text-center">
                 <h1 className="text-4xl text-orange">Gallery</h1>
             </header>
