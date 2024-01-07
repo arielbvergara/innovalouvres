@@ -14,10 +14,10 @@ export function App({children}) {
             <Sidebar sidebarActive={sidebarActive} setSidebarActive={setSidebarActive} />
             <div className='flex flex-col'>
                 <Header sidebarActive={sidebarActive} setSidebarActive={setSidebarActive} />
-            <div className='h-[--body-min-height] text-grey'>
-                {children}
+                <div className='background h-min-[--body-min-height] text-grey'>
+                    {children}
+                </div>
             </div>
-          </div>
         </ThemeProvider>
     )
 }

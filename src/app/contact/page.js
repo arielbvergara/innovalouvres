@@ -2,7 +2,7 @@ export default function Contact({}) {
     return (
         <div className="container mx-auto">
             <header className="py-8 text-center">
-                <h1 className="text-4xl font-bold text-orange">Contact Us</h1>
+                <h1 className="text-4xl text-orange">Contact Us</h1>
             </header>
 
             <section className="mx-4 mb-8">
@@ -13,7 +13,7 @@ export default function Contact({}) {
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl font-semibold text-orange">Contact Information</h2>
+                <h2 className="mb-4 text-2xl text-orange">Contact Information</h2>
                 <ul className="list-disc pl-6">
                     <li><strong>Address:</strong> [Your Company Address]</li>
                     <li><strong>Email:</strong> [Your Company Email]</li>
@@ -22,13 +22,13 @@ export default function Contact({}) {
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl font-semibold text-orange">Get in Touch</h2>
+                <h2 className="mb-4 text-2xl text-orange">Get in Touch</h2>
                 <p className="text-lg">Feel free to use the contact form below or reach out to us via email or phone. We will get back
                     to you as soon as possible!</p>
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl font-semibold text-orange">Contact Form</h2>
+                <h2 className="mb-4 text-2xl text-orange">Contact Form</h2>
                 <form action="#" method="post" className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div className="col-span-2 mb-4 sm:col-span-1">
                         <label for="name" className="block text-sm font-medium text-gray-700">Your Name</label>

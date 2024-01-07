@@ -5,8 +5,8 @@
             "name":"image1",
             "src":"/roof1.jpg",
             "content":{
-                "title":"Captivating Garden Rooftop",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+                "title":"Motorized Roof Louvres",
+                "description":"Motorized Roof Louvres are a great way to add a touch of style to your home."
             },
             "type":"carousel",
             "cardContent":{
@@ -19,8 +19,8 @@
             "name":"image2",
             "src":"/roof2.jpg",
             "content":{
-                "title":"Futuristic Rooftop Design",
-                "description":"Step into Tomorrow's Living with Rooftop Oasis Innovations: Affordable, Green, and Stylish!"
+                "title":"Privacy screen",
+                "description":"Privacy screen are a great way to add a touch of style to your home."
             },
             "type":"carousel",
             "cardContent":{
@@ -33,8 +33,8 @@
             "name":"image3",
             "src":"/roof3.jpg",
             "content":{
-                "title":"Skilled Workers Building Rooftop Garden",
-                "description":"Urban Eden Creations: Transforming Spaces into Lush Gardens - Affordable, Eco-Friendly, and Expertly Crafted!"
+                "title":"Fixed Louvres",
+                "description":"Fixed Louvres are a great way to add a touch of style to your home."
             },
             "type":"carousel",
             "cardContent":{
