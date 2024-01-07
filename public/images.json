@@ -5,7 +5,7 @@
             "name":"image1",
             "src":"/roof1.jpg",
             "content":{
-                "title":"Motorized Roof Louvres",
+                "title":"NZ made and designed motorized louvres roofs",
                 "description":"Motorized Roof Louvres are a great way to add a touch of style to your home."
             },
             "type":"carousel",
@@ -19,12 +19,12 @@
             "name":"image2",
             "src":"/roof2.jpg",
             "content":{
-                "title":"Privacy screen",
+                "title":"Manually operable and fixed louvres privacy screens",
                 "description":"Privacy screen are a great way to add a touch of style to your home."
             },
             "type":"carousel",
             "cardContent":{
-                "title":"Captivating Garden Rooftop",
+                "title":"Operable and fixed architerctural louvres",
                 "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
             }
         },
