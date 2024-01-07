@@ -24,3 +24,7 @@
 .background{
     background-color: rgb(255 249 242);
 }
+
+input:focus, textarea:focus, select:focus{
+    border-width: 0.3px;
+}

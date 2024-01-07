@@ -33,27 +33,27 @@ export default function Contact({}) {
                     <div className="col-span-3 mb-4 sm:col-span-1">
                         <label for="name" className="block text-sm font-medium text-gray-700">Name</label>
                         <input type="text" id="name" name="name" required
-                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none" />
+                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                     </div>
                     <div className="col-span-3 mb-4 sm:col-span-1">
                         <label for="email" className="block text-sm font-medium text-gray-700">Email*</label>
                         <input type="email" id="email" name="email" required
-                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none" />
+                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                     </div>
                     <div className="col-span-3 mb-4 sm:col-span-1">
                         <label for="phone" className="block text-sm font-medium text-gray-700">Phone number</label>
                         <input type="phone" id="phone" name="phone" required
-                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none" />
+                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                     </div>
                     <div className="col-span-3 mb-4">
                         <label for="message-after" className="block text-sm font-medium text-gray-700">Let us know what you are after</label>
                         <textarea id="message-after" name="message-after" rows="4" required
-                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none"></textarea>
+                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none"></textarea>
                     </div>
                     <div className="col-span-3 mb-4">
                         <label for="message-size" className="block text-sm font-medium text-gray-700">Do you know the sizes of your dreamed louvre? Let us know here!</label>
                         <textarea id="message-size" name="message-size" rows="4" required
-                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none"></textarea>
+                            className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none"></textarea>
                     </div>
                     <div className="col-span-3">
                         <button type="submit"
