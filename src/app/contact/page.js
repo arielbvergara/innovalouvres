@@ -2,7 +2,7 @@ export default function Contact({}) {
     return (
         <div className="container mx-auto min-h-[--body-min-height]">
             <header className="py-8 text-center">
-                <h1 className="text-4xl text-orange">Contact Us</h1>
+                <h1 className="text-4xl">Contact Us</h1>
             </header>
 
             <section className="mx-4 mb-8">
@@ -11,24 +11,8 @@ export default function Contact({}) {
                     just want to say hello, feel free to reach out to us.
                 </p>
             </section>
-
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">Contact Information</h2>
-                <ul className="list-disc pl-6">
-                    <li><strong>Address:</strong> [Your Company Address]</li>
-                    <li><strong>Email:</strong> [Your Company Email]</li>
-                    <li><strong>Phone:</strong> [Your Company Phone Number]</li>
-                </ul>
-            </section>
-
-            <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">Get in Touch</h2>
-                <p className="text-lg">Feel free to use the contact form below or reach out to us via email or phone. We will get back
-                    to you as soon as possible!</p>
-            </section>
-
-            <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">Contact Us</h2>
+                {/* <h2 className="mb-4 text-2xl">Contact Us</h2> */}
                 <form action="#" method="post" className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div className="col-span-3 mb-4 sm:col-span-1">
                         <label for="name" className="block text-sm font-medium text-gray-700">Name</label>
@@ -57,7 +41,7 @@ export default function Contact({}) {
                     </div>
                     <div className="col-span-3">
                         <button type="submit"
-                            className="w-full rounded-md bg-orange p-2 text-white hover:bg-blue-600 focus:bg-blue-600 focus:outline-none">
+                            className="send-message w-full rounded-md p-2 text-white hover:bg-orange focus:bg-orange focus:outline-none">
                             Send Message
                         </button>
                     </div>

@@ -26,7 +26,7 @@ export default function Gallery({}) {
     return (
         <div className="container mx-auto min-h-[--body-min-height]">
             <header className="py-8 text-center">
-                <h1 className="text-4xl text-orange">Gallery</h1>
+                <h1 className="text-4xl">Gallery</h1>
             </header>
 
             <section className="mx-4 mb-8">

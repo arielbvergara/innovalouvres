@@ -2,17 +2,17 @@ export default function About({}) {
     return (
         <div className="container mx-auto min-h-[--body-min-height]">
             <header className="py-8 text-center">
-                <h1 className="text-4xl text-orange">Welcome to Innovalouvres</h1>
+                <h1 className="text-4xl">Welcome to Innovalouvres</h1>
             </header>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">Our Mission</h2>
+                <h2 className="mb-4 text-2xl">Our Mission</h2>
                 <p>Your Company Name is on a mission to [briefly state your company`&apos;`s mission or purpose]. We believe in
                     [core beliefs or principles], driving us to [specific goals or outcomes].</p>
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">What Sets Us Apart</h2>
+                <h2 className="mb-4 text-2xl">What Sets Us Apart</h2>
                 <ul className="list-disc pl-6">
                     <li><strong>Innovation:</strong> We pride ourselves on being at the forefront of [industry-specific
                             innovation or technology].</li>
@@ -24,7 +24,7 @@ export default function About({}) {
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">Our Team</h2>
+                <h2 className="mb-4 text-2xl">Our Team</h2>
                 <p>Meet the faces behind Your Company Name — a team of dedicated professionals passionate about [industry or
                     mission]. Our diverse team brings together expertise in [relevant fields], creating a dynamic and
                     innovative environment.</p>
@@ -36,7 +36,7 @@ export default function About({}) {
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl text-orange">Get in Touch</h2>
+                <h2 className="mb-4 text-2xl">Get in Touch</h2>
                 <p>We are excited to embark on this journey with you. Whether you are looking to transform your space with a
                     garden rooftop or [other services], we are here to bring your vision to life.</p>
                 <p>[Include Contact Information]</p>
