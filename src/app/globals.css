@@ -18,7 +18,10 @@
 
 *{
     font-family: Playfair Display Georgia, 'Times New Roman', Times, serif;
-    color: rgb(87 87 87)
+}
+
+input, textarea, select{
+    color: rgb(87 87 87);
 }
 
 .background{
