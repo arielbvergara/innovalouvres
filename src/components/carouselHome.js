@@ -73,7 +73,7 @@ export default function CarouselHome({}) {
 
     return (
         data ? 
-        <Carousel>
+        <Carousel onTouchMove={(e) => {console.log(e)}}>
             {
                 GetSlides()
             }

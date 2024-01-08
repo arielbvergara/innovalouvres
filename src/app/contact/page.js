@@ -1,4 +1,15 @@
+'use client'
+
 export default function Contact({}) {
+
+    const handleSubmit = (e) => {
+        console.log(process.env.NEXT_PUBLIC_SMTP_GMAIL_USER);
+        console.log(process.env.NEXT_PUBLIC_SMTP_GMAIL_PASSWORD);
+        e.preventDefault();
+        alert("Thank you for reaching out to Your Company Name. We look forward to connecting with you!");
+    }
+    
+
     return (
         <div className="container mx-auto min-h-[--body-min-height]">
             <header className="py-8 text-center">
@@ -15,32 +26,32 @@ export default function Contact({}) {
                 {/* <h2 className="mb-4 text-2xl">Contact Us</h2> */}
                 <form action="#" method="post" className="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div className="col-span-3 mb-4 sm:col-span-1">
-                        <label for="name" className="block text-sm font-medium text-gray-700">Name</label>
+                        <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
                         <input type="text" id="name" name="name" required
                             className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                     </div>
                     <div className="col-span-3 mb-4 sm:col-span-1">
-                        <label for="email" className="block text-sm font-medium text-gray-700">Email*</label>
+                        <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email*</label>
                         <input type="email" id="email" name="email" required
                             className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                     </div>
                     <div className="col-span-3 mb-4 sm:col-span-1">
-                        <label for="phone" className="block text-sm font-medium text-gray-700">Phone number</label>
+                        <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Phone number</label>
                         <input type="phone" id="phone" name="phone" required
                             className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                     </div>
                     <div className="col-span-3 mb-4">
-                        <label for="message-after" className="block text-sm font-medium text-gray-700">Let us know what you are after</label>
+                        <label htmlFor="message-after" className="block text-sm font-medium text-gray-700">Let us know what you are after</label>
                         <textarea id="message-after" name="message-after" rows="4" required
                             className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none"></textarea>
                     </div>
                     <div className="col-span-3 mb-4">
-                        <label for="message-size" className="block text-sm font-medium text-gray-700">Do you know the sizes of your dreamed louvre? Let us know here!</label>
+                        <label htmlFor="message-size" className="block text-sm font-medium text-gray-700">Do you know the sizes of your dreamed louvre? Let us know here!</label>
                         <textarea id="message-size" name="message-size" rows="4" required
                             className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none"></textarea>
                     </div>
                     <div className="col-span-3">
-                        <button type="submit"
+                        <button type="submit" onClick={(e) => {handleSubmit(e)}}
                             className="send-message w-full rounded-md p-2 text-white hover:bg-orange focus:bg-orange focus:outline-none">
                             Send Message
                         </button>
