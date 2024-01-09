@@ -18,6 +18,11 @@ const formatEmail = (name, email, phone, messageAfter, messageSize) => {
 
 export default function Contact() {
 
+    console.log(process.env.NEXT_PUBLIC_EMAIL_TITLE)
+    console.log(process.env.NEXT_PUBLIC_EMAIL_TO)
+    console.log(process.env.NEXT_PUBLIC_SMTP_GMAIL_USER)
+    console.log(process.env.NEXT_PUBLIC_SMTP_GMAIL_PASSWORD)
+
     const subject = process.env.NEXT_PUBLIC_EMAIL_TITLE ?? "New contact request!";
     const emailTo = process.env.NEXT_PUBLIC_EMAIL_TO ?? "arielvergara95@gmail.com";
     const [name, setName] = useState('');
