@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Contact({}) {
+export default function Contact() {
 
     const subject = "New contact request!"
     const [name, setName] = useState('');
@@ -81,6 +81,8 @@ export default function Contact({}) {
                     </div>
                 </form>
             </section>
+
+            {emailSuccess && emailSuccess.message === "EMAIL_SENT_SUCCESSFULLY" && (<>hola</>)}
 
             <footer className="py-8 text-center text-gray-500">
                 <p>Thank you for reaching out to Your Company Name. We look forward to connecting with you!</p>
