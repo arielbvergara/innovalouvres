@@ -1,11 +1,12 @@
 'use client'
 
 import { useState } from "react";
+import { AlertCustomStyles } from "../../components/alert";
 
 const formatEmail = (name, email, phone, messageAfter, messageSize) => {
     return `
         <div>
-            <h1>New contact request!</h1>
+            <h3>New contact request!</h3>
             <p>Name: ${name}</p>
             <p>Email: ${email}</p>
             <p>Phone: ${phone}</p>
@@ -95,7 +96,12 @@ export default function Contact() {
                 </form>
             </section>
 
-            {emailSuccess && emailSuccess.message === "EMAIL_SENT_SUCCESSFULLY" && (<>Email sent successfully</>)}
+            {emailSuccess && (
+                emailSuccess.message === "EMAIL_SENT_FAILED" ? 
+                    (<AlertCustomStyles setEmailSuccess={setEmailSuccess}>Something went wrong, please try again later</AlertCustomStyles>) : 
+                    (<AlertCustomStyles setEmailSuccess={setEmailSuccess}>Email sent successfully</AlertCustomStyles>)
+                )
+            } 
 
             <footer className="py-8 text-center text-gray-500">
                 <p>Thank you for reaching out to Your Company Name. We look forward to connecting with you!</p>
