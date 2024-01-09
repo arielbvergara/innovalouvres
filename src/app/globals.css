@@ -35,3 +35,7 @@ input, textarea, select{
 input:focus, textarea:focus, select:focus{
     border-width: 0.3px;
 }
+
+.alert > button {
+    color: gray;
+}

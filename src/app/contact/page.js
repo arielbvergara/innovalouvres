@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import { AlertCustomStyles } from "../../components/alert";
+import { AlertSuccess, AlertWarning } from "../../components/alert";
 
 const formatEmail = (name, email, phone, messageAfter, messageSize) => {
     return `
@@ -97,9 +97,9 @@ export default function Contact() {
             </section>
 
             {emailSuccess && (
-                emailSuccess.message === "EMAIL_SENT_FAILED" ? 
-                    (<AlertCustomStyles setEmailSuccess={setEmailSuccess}>Something went wrong, please try again later</AlertCustomStyles>) : 
-                    (<AlertCustomStyles setEmailSuccess={setEmailSuccess}>Email sent successfully</AlertCustomStyles>)
+                emailSuccess.message !== "EMAIL_SENT_FAILED" ? 
+                    (<AlertWarning setEmailSuccess={setEmailSuccess}>Something went wrong, please try again later</AlertWarning>) : 
+                    (<AlertSuccess setEmailSuccess={setEmailSuccess}>Email sent successfully</AlertSuccess>)
                 )
             } 
 

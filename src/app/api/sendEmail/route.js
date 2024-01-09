@@ -20,8 +20,6 @@ export async function POST(request) {
         subject: body.subject,
         html: body.otpText
       };
-
-      console.log("mailOptions", mailOptions)
     
       await transporter.sendMail(mailOptions, function (error, info) {
         if (error) {
