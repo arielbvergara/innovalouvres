@@ -97,7 +97,7 @@ export default function Contact() {
             </section>
 
             {emailSuccess && (
-                emailSuccess.message !== "EMAIL_SENT_FAILED" ? 
+                emailSuccess.message === "EMAIL_SENT_FAILED" ? 
                     (<AlertWarning setEmailSuccess={setEmailSuccess}>Something went wrong, please try again later</AlertWarning>) : 
                     (<AlertSuccess setEmailSuccess={setEmailSuccess}>Email sent successfully</AlertSuccess>)
                 )
