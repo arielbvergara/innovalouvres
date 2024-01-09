@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer'
 
-export default async function POST({subject, toEmail, otpText}) {
+export async function POST(request) {
 
-  console.log("hola post")
-
+    const body = await request.json();
+    
     try {
       var transporter = nodemailer.createTransport({
         service: "gmail",
@@ -16,9 +16,9 @@ export default async function POST({subject, toEmail, otpText}) {
     
       var mailOptions = {
         from: process.env.NEXT_PUBLIC_SMTP_GMAIL_USER,
-        to: toEmail ?? "arielvergara95@gmail.com",
-        subject: subject ?? "Hola",
-        text: otpText ?? "Ariel",
+        to: body.emailTo,
+        subject: body.subject,
+        html: body.otpText
       };
 
       console.log("mailOptions", mailOptions)

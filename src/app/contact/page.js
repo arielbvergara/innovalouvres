@@ -2,9 +2,23 @@
 
 import { useState } from "react";
 
+const formatEmail = (name, email, phone, messageAfter, messageSize) => {
+    return `
+        <div>
+            <h1>New contact request!</h1>
+            <p>Name: ${name}</p>
+            <p>Email: ${email}</p>
+            <p>Phone: ${phone}</p>
+            <p>Message after: ${messageAfter}</p>
+            <p>Message size: ${messageSize}</p>
+        </div>
+    `
+}
+
 export default function Contact() {
 
-    const subject = "New contact request!"
+    const subject = process.env.NEXT_PUBLIC_EMAIL_TITLE ?? "New contact request!";
+    const emailTo = process.env.NEXT_PUBLIC_EMAIL_TO ?? "arielvergara95@gmail.com";
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -15,7 +29,7 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         
-        const otpText = `${name}, ${email}, ${phone}, ${messageAfter}, ${messageSize}`
+        const otpText = formatEmail(name, email, phone, messageAfter, messageSize);
 
         const response = await fetch("/api/sendEmail", {
             method: 'POST',
@@ -24,13 +38,12 @@ export default function Contact() {
             },
             body: JSON.stringify({
                 subject,
-                emailTo: "arielvergara95@gmail.com",
+                emailTo,
                 otpText
             })
         });
 
         const success = await response.json();
-        console.log(success)
         setEmailSuccess(success)
     }
     
@@ -82,7 +95,7 @@ export default function Contact() {
                 </form>
             </section>
 
-            {emailSuccess && emailSuccess.message === "EMAIL_SENT_SUCCESSFULLY" && (<>hola</>)}
+            {emailSuccess && emailSuccess.message === "EMAIL_SENT_SUCCESSFULLY" && (<>Email sent successfully</>)}
 
             <footer className="py-8 text-center text-gray-500">
                 <p>Thank you for reaching out to Your Company Name. We look forward to connecting with you!</p>
