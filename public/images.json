@@ -99,7 +99,11 @@
         {
             "id":13,
             "name":"image13",
-            "src":"/roof13.jpg"
+            "src":"/roof13.jpg",
+            "cardContent":{
+                "title":"Captivating Garden Rooftop 2",
+                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
+            }
         }
     ]
 }
