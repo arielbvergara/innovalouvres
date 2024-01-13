@@ -1,4 +1,28 @@
 {
+    "pages":{
+        "about":{
+            "title":"NZ made and designed motorized louvres roofs",
+            "footer": "Thank you for considering Innovalouvres. Let s create something extraordinary together!"
+        },
+        "contact": {
+            "title": "Welcome to Innovalouvres",
+            "subTitle": "We wouldd love to hear from you! Whether you have a question about our services, want to discuss a project, or just want to say hello, feel free to reach out to us.",
+            "form":{
+                "name": "Name*",
+                "email": "Email*",
+                "phone": "Phone number*",
+                "messageOne": "Let us know what you are after",
+                "messageTwo": "Do you know the sizes of your dreamed louvre? Let us know here!",
+                "send": "Send message"
+            },
+            "footer": "Thank you for reaching out to Innovalouvres. We look forward to connecting with you!"
+        }, 
+        "gallery":{
+            "title": "Gallery",
+            "subTitle": "Explore our gallery to see the beauty of our work. From garden rooftops to [other services], each project is a testament to our commitment to excellence and innovation.",
+            "footer": "Thank you for exploring our gallery. For more information or to start your project, contact us!"
+        }
+    },
     "images":[
         {
             "id":1,
@@ -8,11 +32,7 @@
                 "title":"NZ made and designed motorized louvres roofs",
                 "description":"Motorized Roof Louvres are a great way to add a touch of style to your home."
             },
-            "type":"carousel",
-            "cardContent":{
-                "title":"Captivating Garden Rooftop",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
-            }
+            "type":"carousel"
         },
         {
             "id":2,
@@ -22,11 +42,7 @@
                 "title":"Manually operable and fixed louvres privacy screens",
                 "description":"Privacy screen are a great way to add a touch of style to your home."
             },
-            "type":"carousel",
-            "cardContent":{
-                "title":"Operable and fixed architerctural louvres",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
-            }
+            "type":"carousel"
         },
         {
             "id":3,
@@ -36,21 +52,12 @@
                 "title":"Fixed Louvres",
                 "description":"Fixed Louvres are a great way to add a touch of style to your home."
             },
-            "type":"carousel",
-            "cardContent":{
-                "title":"Captivating Garden Rooftop",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
-            }
-            
+            "type":"carousel"            
         },
         {
             "id":4,
             "name":"image4",
-            "src":"/roof4.jpg",
-            "cardContent":{
-                "title":"Captivating Garden Rooftop",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
-            }
+            "src":"/roof4.jpg"
         },
         {
             "id":5,
@@ -65,11 +72,7 @@
         {
             "id":7,
             "name":"image7",
-            "src":"/roof7.jpg",
-            "cardContent":{
-                "title":"Captivating Garden Rooftop",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
-            }
+            "src":"/roof7.jpg"
         },
         {
             "id":8,
@@ -100,7 +103,7 @@
             "id":13,
             "name":"image13",
             "src":"/roof13.jpg",
-            "cardContent":{
+            "content":{
                 "title":"Captivating Garden Rooftop 2",
                 "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
             }

@@ -1,8 +1,29 @@
+'use client'
+
+import { ContentContext } from "@/components/app"
+import Loading from "@/components/loading";
+import { useContext, useEffect, useState } from "react"
+
 export default function About({}) {
+
+    const contentContext = useContext(ContentContext)
+    
+    const [aboutContent, setAboutContent] = useState(null);
+
+    useEffect(() => {
+
+        if (contentContext && contentContext.data?.pages?.about){
+            setAboutContent(contentContext.data.pages.about)
+            console.log("SET ABOUT")
+        }
+        console.log("ABOUT")
+    }, [contentContext]);
+
     return (
-        <div className="container mx-auto min-h-[--body-min-height]">
+        aboutContent ? 
+        (<div className="container mx-auto min-h-[--body-min-height]">
             <header className="py-8 text-center">
-                <h1 className="text-4xl">Welcome to Innovalouvres</h1>
+                <h1 className="text-4xl">{aboutContent.title}</h1>
             </header>
 
             <section className="mx-4 mb-8">
@@ -45,6 +66,12 @@ export default function About({}) {
             <footer className="py-8 text-center text-gray-500">
                 <p>Thank you for considering Your Company Name. Let`&apos;`s create something extraordinary together!</p>
             </footer>
-        </div>
+        </div>)
+
+        :
+
+        (
+            <Loading />
+        )
     )
 }
