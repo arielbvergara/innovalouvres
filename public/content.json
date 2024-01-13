@@ -6,7 +6,7 @@
         },
         "contact": {
             "title": "Welcome to Innovalouvres",
-            "subTitle": "We wouldd love to hear from you! Whether you have a question about our services, want to discuss a project, or just want to say hello, feel free to reach out to us.",
+            "subTitle": "We would love to hear from you! Whether you have a question about our services, want to discuss a project, or just want to say hello, feel free to reach out to us.",
             "form":{
                 "name": "Name*",
                 "email": "Email*",

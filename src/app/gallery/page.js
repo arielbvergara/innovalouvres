@@ -24,18 +24,15 @@ export default function Gallery({}) {
     return (
         galleryContent ?
         <div className="container mx-auto min-h-[--body-min-height]">
-            <header className="py-8 text-center">
+            <header className="py-8 px-4 text-center">
                 <h1 className="text-4xl">{galleryContent.title}</h1>
             </header>
-
-            {
-                galleryContent.subTitle ?? 
-                    <section className="mx-4 mb-8">
-                        <p className="text-lg">
-                            {galleryContent.subTitle}
-                        </p>
-                    </section>
-            }
+            
+            <section className="mb-8 px-5">
+                <p className="text-lg">
+                    {galleryContent.subTitle}
+                </p>
+            </section>
             
             {galleryImages ? (
                 <section className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3">
