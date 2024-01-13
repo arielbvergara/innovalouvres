@@ -7,16 +7,12 @@ import { useContext, useEffect, useState } from "react"
 export default function About({}) {
 
     const contentContext = useContext(ContentContext)
-    
     const [aboutContent, setAboutContent] = useState(null);
 
     useEffect(() => {
-
         if (contentContext && contentContext.data?.pages?.about){
             setAboutContent(contentContext.data.pages.about)
-            console.log("SET ABOUT")
         }
-        console.log("ABOUT")
     }, [contentContext]);
 
     return (

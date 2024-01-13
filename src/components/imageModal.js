@@ -2,15 +2,12 @@ import React from "react";
 import {
   Dialog,
   DialogBody,
-  DialogFooter,
-  Typography,
   Card,
 } from "@material-tailwind/react";
 import Image from "next/image";
 import { GalleryCarousel } from "./galleryCarousel";
  
-export function ImageModal({src, title, description, alt, index, galleryImages}) {
-  console.log("Image modal", galleryImages)
+export function ImageModal({src, alt, index, galleryImages}) {
   const [open, setOpen] = React.useState(false);
    
   const handleOpen = () => setOpen((cur) => !cur);

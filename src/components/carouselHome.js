@@ -14,9 +14,7 @@ export default function CarouselHome({}) {
     useEffect(() => {
         if (contentContext && contentContext.data?.images){
             setData(contentContext.data.images.filter(x => x.type == "carousel"))
-            console.log("SET HOME")
         }
-        console.log("HOME")
     }, [contentContext]);
 
     const GetSlides = () => {
@@ -66,7 +64,7 @@ export default function CarouselHome({}) {
 
     return (
         data ? 
-        <Carousel onTouchMove={(e) => {console.log(e)}}>
+        <Carousel>
             {
                 GetSlides()
             }

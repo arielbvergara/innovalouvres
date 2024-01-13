@@ -14,7 +14,6 @@ export function App({children}) {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        console.log("FETCH")
         const fetchData = async () => {
             try {
                 const response = await fetch('/content.json');

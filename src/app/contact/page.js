@@ -19,12 +19,6 @@ const formatEmail = (name, email, phone, messageAfter, messageSize) => {
 }
 
 export default function Contact() {
-
-    console.log(process.env.NEXT_PUBLIC_EMAIL_TITLE)
-    console.log(process.env.NEXT_PUBLIC_EMAIL_TO)
-    console.log(process.env.NEXT_PUBLIC_SMTP_GMAIL_USER)
-    console.log(process.env.NEXT_PUBLIC_SMTP_GMAIL_PASSWORD)
-
     const subject = process.env.NEXT_PUBLIC_EMAIL_TITLE ?? "New contact request!";
     const emailTo = process.env.NEXT_PUBLIC_EMAIL_TO ?? "arielvergara95@gmail.com";
     const [name, setName] = useState('');
@@ -55,17 +49,13 @@ export default function Contact() {
         setEmailSuccess(success)
     }
 
-
     const contentContext = useContext(ContentContext)
     const [contactContent, setContactContent] = useState(null);
 
     useEffect(() => {
-
         if (contentContext && contentContext.data?.pages?.contact){
             setContactContent(contentContext.data.pages.contact)
-            console.log("SET CONTACT")
         }
-        console.log("CONTACT")
     }, [contentContext]);
     
 

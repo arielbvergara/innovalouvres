@@ -16,9 +16,7 @@ export default function Gallery({}) {
         if (contentContext && contentContext.data?.pages?.gallery){
             setGalleryContent(contentContext.data.pages.gallery)
             setGalleryImages(contentContext.data.images)
-            console.log("SET GALLERY")
         }
-        console.log("GALLERY")
     }, [contentContext]);
 
     return (
