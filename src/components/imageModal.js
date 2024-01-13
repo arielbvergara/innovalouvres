@@ -35,18 +35,6 @@ export function ImageModal({src, title, description, alt, index, galleryImages})
         <DialogBody>
           <GalleryCarousel index={index} galleryImages={galleryImages}/>
         </DialogBody>
-        <DialogFooter className="justify-between">
-          <div className="flex items-center gap-16">
-            <div>
-                <Typography variant="h5" color="gray" className="font-normal">
-                    {title}
-                </Typography>
-                <Typography variant="small" color="gray" className="font-normal">
-                    {description}
-                </Typography>
-            </div>
-          </div>
-        </DialogFooter>
       </Dialog>
     </>
   );
