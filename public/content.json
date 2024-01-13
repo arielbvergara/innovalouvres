@@ -1,4 +1,21 @@
 {
+    "pages":{
+        "about":{
+            "title":"NZ made and designed motorized louvres roofs"
+        },
+        "contact": {
+            "title": "Welcome to Innovalouvres",
+            "subTitle": "We wouldd love to hear from you! Whether you have a question about our services, want to discuss a project, or just want to say hello, feel free to reach out to us.",
+            "form":{
+                "name": "Name*",
+                "email": "Email*",
+                "phone": "Phone number*",
+                "messageOne": "Let us know what you are after",
+                "messageTwo": "Do you know the sizes of your dreamed louvre? Let us know here!",
+                "send": "Send message"
+            }
+        }
+    },
     "images":[
         {
             "id":1,

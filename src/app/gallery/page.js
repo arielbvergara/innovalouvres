@@ -11,7 +11,7 @@ export default function Gallery({}) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/images.json');
+                const response = await fetch('/content.json');
                 const jsonData = await response.json();
                 setData(jsonData.images);
                 
