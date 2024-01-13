@@ -15,11 +15,12 @@ export function GalleryCarousel({ galleryImages, index }) {
     return (
         <Carousel className="rounded-xl gallery-carousel max-h-[80vh]" >
             {
-                galleryImages.map(({ src, name }) => (
+                galleryImages.map(({ src, name, id }) => (
                     <img
                         src={src}
                         alt={name}
                         className="h-full w-full object-cover"
+                        key={id}
                     />
                 ))
             }
