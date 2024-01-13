@@ -2,28 +2,22 @@
  
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Loading from "./loading";
+import { ContentContext } from "./app";
 
 export default function CarouselHome({}) {
 
     const [data, setData] = useState(null);
-
+    const contentContext = useContext(ContentContext)
+    
     useEffect(() => {
-        const fetchData = async () => {
-            
-            try {
-                const response = await fetch('/content.json');
-                const jsonData = await response.json();
-                setData(jsonData.images.filter((word) => word.type === "carousel"));
-                
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-        };
-
-        fetchData();
-    }, []); // Empty dependency array ensures that the effect runs only once when the component mounts
+        if (contentContext && contentContext.data?.images){
+            setData(contentContext.data.images.filter(x => x.type == "carousel"))
+            console.log("SET HOME")
+        }
+        console.log("HOME")
+    }, [contentContext]);
 
     const GetSlides = () => {
         return data.map((item, index) => {

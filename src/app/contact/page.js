@@ -57,7 +57,6 @@ export default function Contact() {
 
 
     const contentContext = useContext(ContentContext)
-    
     const [contactContent, setContactContent] = useState(null);
 
     useEffect(() => {
