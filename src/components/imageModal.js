@@ -7,8 +7,10 @@ import {
   Card,
 } from "@material-tailwind/react";
 import Image from "next/image";
+import { GalleryCarousel } from "./galleryCarousel";
  
-export function ImageModal({src, title, description, alt}) {
+export function ImageModal({src, title, description, alt, index, galleryImages}) {
+  console.log("Image modal", galleryImages)
   const [open, setOpen] = React.useState(false);
    
   const handleOpen = () => setOpen((cur) => !cur);
@@ -18,6 +20,7 @@ export function ImageModal({src, title, description, alt}) {
       <Card
         className="max-h-48 cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
         onClick={handleOpen}
+        key={index}
       >
         <Image
           alt={alt}
@@ -30,11 +33,7 @@ export function ImageModal({src, title, description, alt}) {
        <Dialog size="xl" open={open} handler={handleOpen}>
         
         <DialogBody>
-          <img
-            alt={alt}
-            className="max-h-[48rem] w-full rounded-lg object-contain object-center"
-            src={src}
-          />
+          <GalleryCarousel index={index} galleryImages={galleryImages}/>
         </DialogBody>
         <DialogFooter className="justify-between">
           <div className="flex items-center gap-16">

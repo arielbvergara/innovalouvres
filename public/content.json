@@ -68,45 +68,6 @@
             "id":6,
             "name":"image6",
             "src":"/roof6.jpg"
-        },
-        {
-            "id":7,
-            "name":"image7",
-            "src":"/roof7.jpg"
-        },
-        {
-            "id":8,
-            "name":"image8",
-            "src":"/roof8.jpg"
-        },
-        {
-            "id":9,
-            "name":"image9",
-            "src":"/roof9.jpg"
-        },
-        {
-            "id":10,
-            "name":"image10",
-            "src":"/roof10.jpg"
-        },
-        {
-            "id":11,
-            "name":"image11",
-            "src":"/roof11.jpg"
-        },
-        {
-            "id":12,
-            "name":"image12",
-            "src":"/roof12.jpg"
-        },
-        {
-            "id":13,
-            "name":"image13",
-            "src":"/roof13.jpg",
-            "content":{
-                "title":"Captivating Garden Rooftop 2",
-                "description":"Elevate Your Lifestyle with SkyBlossom Greenscapes: Where Efficiency Meets Nature!"
-            }
-        }
+        }       
     ]
 }
