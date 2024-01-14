@@ -13,11 +13,11 @@ export function GalleryCarousel({ galleryImages, index }) {
         <Carousel className="rounded-xl gallery-carousel" >
             {
                 galleryImages.map(({ src, name, id }, index2) => (
-                    <div className="relative h-max-[85vh] w-full" key={index2}>
+                    <div className="relative" key={index2}>
                         <img
                             src={src}
                             alt={name}
-                            className="h-full w-full object-cover"
+                            className="lg:h-[85vh] w-full object-cover"
                             key={id}
                         />
                     </div>
