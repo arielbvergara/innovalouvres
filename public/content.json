@@ -68,6 +68,11 @@
             "id":6,
             "name":"image6",
             "src":"/roof6.jpg"
-        }       
+        },   
+         {
+            "id":7,
+            "name":"image7",
+            "src":"/roof02.jpg"
+        }
     ]
 }
