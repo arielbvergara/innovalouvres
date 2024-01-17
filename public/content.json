@@ -73,6 +73,11 @@
             "id":7,
             "name":"image7",
             "src":"/roof02.jpg"
+        },
+          {
+            "id":8,
+            "name":"image8",
+            "src":"/roof8.jpg"
         }
     ]
 }
