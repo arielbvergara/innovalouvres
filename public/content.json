@@ -6,8 +6,7 @@
         },
         "contact": {
             "title": "Welcome to Innovalouvres",
-            "subTitle": "Enjoy the convenience of adjusting your louvers with just a touch, effortlessly adapting to changing NZ weather conditions or your desired ambiance. Our exclusive Motorised Louvred Roof with clean lines and sophisticated look, ensures comfort in all seasons.
-Weather you have a question about our services, want to discuss a project or simply get a quote, feel free to reach out to us.",
+            "subTitle": "Enjoy the convenience of adjusting your louvres with just a touch, effortlessly adapting to changing NZ weather conditions or your desired.",
             "form":{
                 "name": "Name*",
                 "email": "Email*",
@@ -31,8 +30,7 @@ Weather you have a question about our services, want to discuss a project or sim
             "src":"/roof1.jpg",
             "content":{
                 "title":"NZ made and designed Motorised Louvred Roofs",
-                "description":"Customize your outdoor area to your preferences, whether it's creating a shaded retreat, maximizing sunlight, or finding the perfect balance between the two.
-Our Louvre system provide a luxurious and adaptable outdoor living solution to your lifestyle."
+                "description":"Customize your outdoor area to your preferences, whether it's creating a shaded retreat, maximizing sunlight, or finding the perfect."
             },
             "type":"carousel"
         },
