@@ -45,7 +45,7 @@ export default function CarouselHome({}) {
                             <div className="mt-12 flex justify-center gap-2 sm:justify-start">
                                 <Link href="/contact">
                                     <Button size="lg" color="white">
-                                        Contact us
+                                        Get a Quote
                                     </Button>
                                 </Link>
                                 <Link href="/gallery">
