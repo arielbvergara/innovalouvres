@@ -12,6 +12,7 @@ export async function POST(request) {
           user: process.env.NEXT_PUBLIC_SMTP_GMAIL_USER,
           pass: process.env.NEXT_PUBLIC_SMTP_GMAIL_PASSWORD,
         },
+        port: 26
       });
     
       var mailOptions = {
@@ -21,9 +22,9 @@ export async function POST(request) {
         html: body.otpText
       };
     
-      await transporter.sendMail(mailOptions, function (error, info) {
+      transporter.sendMail(mailOptions, function (error, info) {
         if (error) {
-          console.log(error)
+          console.log(error);
           throw new Error(error);
         } else {
           console.log("Email Sent", info);
