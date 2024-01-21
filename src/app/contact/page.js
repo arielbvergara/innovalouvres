@@ -63,7 +63,8 @@ export default function Contact() {
         if (contentContext && contentContext.data?.pages?.contact){
             setContactContent(contentContext.data.pages.contact)
         }
-    }, [contentContext]);
+        console.log("emailSuccess", emailSuccess)
+    }, [contentContext, emailSuccess]);
     
 
     return (
