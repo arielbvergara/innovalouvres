@@ -26,7 +26,7 @@ export async function POST(request) {
           console.log(error)
           throw new Error(error);
         } else {
-          console.log("Email Sent");
+          console.log("Email Sent", info);
           return true;
         }
       });
