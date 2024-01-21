@@ -33,6 +33,13 @@ export default function Contact() {
         
         const otpText = formatEmail(name, email, phone, messageAfter, messageSize);
 
+        console.log("subject", subject)
+        console.log("emailTo", emailTo)
+        console.log("process.env.NEXT_PUBLIC_SMTP_GMAIL_USER", process.env.NEXT_PUBLIC_SMTP_GMAIL_USER)
+        console.log("process.env.NEXT_PUBLIC_SMTP_GMAIL_PASSWORD", process.env.NEXT_PUBLIC_SMTP_GMAIL_PASSWORD)
+
+        console.log("otpText", otpText)
+
         const response = await fetch("/api/sendEmail", {
             method: 'POST',
             headers: {
