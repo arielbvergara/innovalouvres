@@ -23,49 +23,29 @@ export default function About({}) {
             </header>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl">Our Mission</h2>
-                <p>Your Company Name is on a mission to [briefly state your company`&apos;`s mission or purpose]. We believe in
-                    [core beliefs or principles], driving us to [specific goals or outcomes].</p>
+            <h2 className="mb-4 text-2xl">About</h2>
+
+                At Innovalouvres we specialize in Motorised Roof Louvres. Our NZ made and designed system is considered one of the best systems in the louvre industry and has been around for more than 15 years, with regular upgrades to the system over the years. Our fabricators, installers and engineering team have multiple decades of experience in the industry combined. The louvre system is powered by european controls and with a modern and stylish design, this is a fantastic option for creating an all season outdoor living space by controlling the weather. Great for shade, letting the sun in and protecting yourself from the rain; all in a day's NZ weather.
+                <br /><br />
+                By adding one of our louvred roofs you are adding extra space to live outdoors, you get to control the weather while elevating the visual appeal of your home with its sophisticated and modern design, and you increase your property value in the process.
             </section>
 
             <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl">What Sets Us Apart</h2>
+                <h2 className="mb-4 text-2xl">Innovalouvres’ noticeable quality</h2>
                 <ul className="list-disc pl-6">
-                    <li><strong>Innovation:</strong> We pride ourselves on being at the forefront of [industry-specific
-                            innovation or technology].</li>
-                    <li><strong>Sustainability:</strong> Committed to a greener future, we integrate eco-friendly practices
-                        into every aspect of our work, creating [describe your eco-friendly products or services].</li>
-                    <li><strong>Quality Craftsmanship:</strong> Our team of skilled workers ensures that every project,
-                        whether it is building garden rooftops or [other services], meets the highest standards of quality.</li>
+                    <li><strong>NZ Made and Designed Louvre systems:</strong> All our louvre systems were designed by a Professional Chartered Structural engineer with over 30 years of experience in the New Zealand aluminium industry, together with other engineers, lead fabricators and installers with similar years in experience. On top of that, the expertise of New Zealand's biggest and best aluminium extrusion companies was consulted to create our superior louvre systems. The result is our SR200 Motorised Roof Louvre, the best quality and durability you can ask for.</li>
+                    <li><strong> Powder coating: </strong>Our system was designed to withstand NZ weather conditions and powder coating is a huge part of this. We prefer using Dulux powder coating. Dulux has several ranges of powder coating available, among which Duralloy (10 year warranty) and Duratec (20 year warranty) are the most popular ones in the aluminium industry. Innovalouvres uses Dulux Duratec (20 year warranty) powder coating as a standard. We could have decided to use lower quality powder coatings too, but we believe so much in our system’s durability that we expect it to need the 20 years of protection at the very least.</li>
+                    <li><strong>Fixings:</strong>At Innovalouvres we only use stainless steel fixings. 304 will be used when the stainless-steel fixing is unexposed and 316 when exposed. However, the location of the louvre adds a variable to this decision-making process, ie; if you live next to the salty ocean, we will use 316 stainless steel only. Small details that make the difference in the long run.</li>
+                    <li><strong>Fabrication:</strong>We do our own fabrication. This allows us to be more specific and give much more attention to detail. Our fabrication team has over 20 years of experience in the aluminium louvre and building industry and can handle any custom job. What’s more, our director likes to fabricate too! So you know this process will have an very high level of oversight.</li>
+                    <li><strong>Installation:</strong>Our Fab team does the installation as well. This means that our team is fully immersed in the complete process of each of our jobs. We don’t like to give our team simple instructions, but rather like them involved and thinking for themselves. This way we create a model where our employees are happy as well as proud of their job. Having happy and proud employees is a pathway and one of the key aspects to being able to deliver high quality systems.</li>
                 </ul>
-            </section>
-
-            <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl">Our Team</h2>
-                <p>Meet the faces behind Your Company Name — a team of dedicated professionals passionate about [industry or
-                    mission]. Our diverse team brings together expertise in [relevant fields], creating a dynamic and
-                    innovative environment.</p>
-                <ul className="list-disc pl-6">
-                    <li>[Team Member 1 Name and Position]</li>
-                    <li>[Team Member 2 Name and Position]</li>
-                    <li>[Team Member 3 Name and Position]</li>
-                </ul>
-            </section>
-
-            <section className="mx-4 mb-8">
-                <h2 className="mb-4 text-2xl">Get in Touch</h2>
-                <p>We are excited to embark on this journey with you. Whether you are looking to transform your space with a
-                    garden rooftop or [other services], we are here to bring your vision to life.</p>
-                <p>[Include Contact Information]</p>
             </section>
 
             <footer className="py-8 text-center text-gray-500">
-                <p>Thank you for considering Your Company Name. Let`&apos;`s create something extraordinary together!</p>
+                <p>Thank you for considering Innovalouvres Let`&apos;`s create something extraordinary together!</p>
             </footer>
         </div>)
-
         :
-
         (
             <Loading />
         )
