@@ -53,7 +53,7 @@ return (
                     </Link>
                 </ListItem>
                 <ListItem onClick={() => setSidebarActive(false)} className={path === "/faqs" ? "active rounded-none" : ""}>
-                    <Link href="/about" className="flex">
+                    <Link href="/faqs" className="flex">
                         <ListItemPrefix>
                             <FontAwesomeIcon icon={faPersonCircleQuestion} className="h-5 cursor-pointer"/>
                         </ListItemPrefix>
