@@ -29,6 +29,7 @@ export default function Faqs({}) {
                     </div>
                 )})
             }
+            <footer className="py-8 text-center text-gray-500">{faqsContent.footer}</footer>
         </div>
         :
         <Loading />
