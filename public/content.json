@@ -19,8 +19,50 @@
         }, 
         "gallery":{
             "title": "Gallery",
-            "subTitle": "Explore our gallery to see the beauty of our work. From garden rooftops to [other services], each project is a testament to our commitment to excellence and innovation.",
+            "subTitle": "Explore our gallery to see the beauty of our work. Our motorised louvred roof redefine outdoor living, providing a haven of comfort and style. Each project is a testament to our commitment to excellence and innovation.",
             "footer": "Thank you for exploring our gallery. For more information or to start your project, contact us!"
+        },
+        "faqs":{
+            "title": "FAQs",
+            "subTitle": "We are here to answer any questions you may have about our services. Reach out to us and we will respond as soon as we can.",
+            "faqs":[
+                {
+                    "id":1,
+                    "question":"Is a louvred roof right for you?",
+                    "answer":"A louvred roof is right for you if you own a home with an uncovered outdoor area. The main thing you need to take into consideration is that a louvred roof is an investment and it will cost you something to start with. But doing it right, a louvred roof will add value to your home and your investment pays out."
+                },
+                {
+                    "id":2,
+                    "question":"How do I get an accurate quote?",
+                    "answer":"The best thing to do is to write us an email at info@innovalouvres.co.nz that has the rough sizes (or millimeter precise sizes if you have them), a couple of good, clear pictures of the area where you would like to have your louvre installed and any specific wishes you may have. We have done this so many times that with that information, 99% of the time, we can send you a detailed and accurate quote. It must be noted that if the sizes of the louvre do change after our own site measurements, the quote will also change.\nAlternatively, we can meet you at your home or on site and discuss the job in detail there. We can then measure ourselves and follow up with a quote."
+                },
+                {
+                    "id":3,
+                    "question":"What size louvre is best for me?",
+                    "answer":"When deciding the size of your louvred roof, it is handy to keep a few things in mind. The first one is that any louvred roof over 30 square meters will need council consent. This means extra costs and sometimes extra waiting. This is an important factor to consider.\nSecond, it is good to think about what you want to use it for. For example, If you just want to sit outside and read a book by yourself, you are likely not going to have to cover a huge area. But if you are expecting your kids, grandkids, friends and other family to play outside, have dinner parties, BBQ’s, etc, a larger area should be considered.\nAll of this can be discussed with a visit to your home by our director, who’s designed, fabricated and installed over 100 louvred roofs."
+                },
+                {
+                    "id":4,
+                    "question":"What colour should I choose?",
+                    "answer":"Colour is a very personal aspect of louvres and should ultimately always be the choice of the client and architect. However, having designed and installed literal hundreds of louvres, we at Innovalouvres can give recommendations to each specific case, which we will if you would like our input. A rule of thumb, however, is to try to match the louvres to your joinery or cladding. Another rule of thumb; keep the louvres light coloured if you do not want to lose too much light. A matt black louvre will absorb light a lot more than a matt appliance white louvre, which actually will reflect light."
+                },
+                {
+                    "id":5,
+                    "question":"Can you fix your Louvres to my building?",
+                    "answer":"In most cases, yes, we can. However, there are 1001 different ways to build and cladd a house and we see most of them here in New Zealand. Some buildings are easier to fix to than others, however, at Innovalouvres we have designed a wide range of options which cover almost all situations. Every now and then we encounter a very specific situation that requires more attention to detail, in which case we refer to our structural engineer, who can help nut out a solution.\nAll of our fixing solutions are according to NZ Building code, and we use EPDM washers and sealant to each fixing into your building wall. It is our highest priority to make sure the job is done properly."
+                },
+                {
+                    "id":6,
+                    "question":"Why are quality louvred roofs so expensive?",
+                    "answer":"Part of the answer lies in the question: Quality. We don’t offer a cheap overseas system that you can replace after 1 or 2 seasons of New Zealand’s tough weather conditions. We focus on high quality and the materials, components and people we use cost more."
+                },
+                {
+                    "id":7,
+                    "question":"Why should I get my louvre from Innovalouvres?",
+                    "answer":"When you investigate the option of a louvred roof and you get several quotes, there are 3 aspects you are looking for: Price, Quality and Aesthetics. At Innovalouvres we have a sophisticated design, that our customers show their appreciation of time and time again, a design that has withstood the test of time in terms of its quality and a louvre that is being fabricated and installed by people that have a vested interest in a high quality outcome and have years of experience fabricating and installing. Our louvres are up there with the best louvre systems available in New Zealand and we offer them at a reasonable price out of those that compete at the highest level."
+                }
+            ],
+            "footer": "Thank you for reaching out to Innovalouvres. We look forward to connecting with you!"
         }
     },
     "images":[

@@ -7,7 +7,7 @@ import {
     ListItemPrefix
   } from "@material-tailwind/react";
   
-import { faHome, faBars, faImage, faPeopleGroup, faMessage } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faBars, faImage, faPeopleGroup, faPersonCircleQuestion, faMessage } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -50,6 +50,14 @@ return (
                             <FontAwesomeIcon icon={faPeopleGroup} className="h-5 cursor-pointer"/>
                         </ListItemPrefix>
                         About us
+                    </Link>
+                </ListItem>
+                <ListItem onClick={() => setSidebarActive(false)} className={path === "/faqs" ? "active rounded-none" : ""}>
+                    <Link href="/about" className="flex">
+                        <ListItemPrefix>
+                            <FontAwesomeIcon icon={faPersonCircleQuestion} className="h-5 cursor-pointer"/>
+                        </ListItemPrefix>
+                        FAQs
                     </Link>
                 </ListItem>
                 <ListItem onClick={() => setSidebarActive(false)} className={path === "/contact" ? "active rounded-none" : ""}>

@@ -33,6 +33,9 @@ export default function Header({sidebarActive, setSidebarActive}) {
                 <Link href="/about" className={path === "/about" ? "m-2 hover:text-light-orange md:m-4 lg:m-6 active" : "m-2 hover:text-light-orange md:m-4 lg:m-6"}>
                     About
                 </Link>
+                <Link href="/faqs" className={path === "/faqs" ? "m-2 hover:text-light-orange md:m-4 lg:m-6 active" : "m-2 hover:text-light-orange md:m-4 lg:m-6"}>
+                    FAQs
+                </Link>
                 <Link href="/contact" className={path === "/contact" ? "m-2 hover:text-light-orange md:m-4 lg:m-6 active" : "m-2 hover:text-light-orange md:m-4 lg:m-6"}>
                     Contact
                 </Link>
