@@ -20,7 +20,7 @@ const formatEmail = (name, email, phone, messageAfter, messageSize) => {
 
 export default function Contact() {
     const subject = process.env.NEXT_PUBLIC_EMAIL_TITLE ?? "New contact request!";
-    const emailTo = process.env.NEXT_PUBLIC_EMAIL_TO ?? "arielvergara95@gmail.com";
+    const emailTo = process.env.NEXT_PUBLIC_EMAIL_TO ?? "arielbernardovergara@gmail.com";
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
