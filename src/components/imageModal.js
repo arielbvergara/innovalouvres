@@ -1,25 +1,23 @@
 import React from "react";
 import {
-  Dialog,
-  DialogBody,
   Card,
 } from "@material-tailwind/react";
-import Image from "next/image";
-import { GalleryCarousel } from "./galleryCarousel";
+
+
  
-export function ImageModal({src, alt, index, galleryImages}) {
-  const [open, setOpen] = React.useState(false);
-   
-  const handleOpen = () => setOpen((cur) => !cur);
-   
+export function ImageModal({src, alt, index, handleOpen, setSelectedImageIndex}) {
+
   return (
     <>
       <Card
         className="max-h-48 cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
-        onClick={handleOpen}
+        onClick={() => {
+          handleOpen()
+          setSelectedImageIndex(index)
+        }}
         key={index}
       >
-        <Image
+        <img
           alt={alt}
           className="h-full w-full object-cover object-center"
           src={src}
@@ -27,12 +25,6 @@ export function ImageModal({src, alt, index, galleryImages}) {
           width={400}
         />
       </Card>
-       <Dialog size="xl" open={open} handler={handleOpen}>
-        
-        <DialogBody>
-          <GalleryCarousel index={index} galleryImages={galleryImages}/>
-        </DialogBody>
-      </Dialog>
     </>
   );
 }

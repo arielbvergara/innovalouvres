@@ -7,18 +7,19 @@ export function GalleryCarousel({ galleryImages, index }) {
             const nextButton = document.getElementsByClassName("gallery-carousel")[0].getElementsByTagName("span")[index];
             nextButton.click()
         },
-        [])
+        [index])
 
     return (
-        <Carousel className="rounded-xl gallery-carousel" >
+        <Carousel className="gallery-carousel rounded-xl" >
             {
                 galleryImages.map(({ src, name, id }, index2) => (
                     <div className="relative" key={index2}>
                         <img
                             src={src}
                             alt={name}
-                            className="lg:h-[85vh] w-full object-cover"
+                            className="w-full object-cover lg:h-[85vh]"
                             key={id}
+                            loading="eager"
                         />
                     </div>
                 ))
