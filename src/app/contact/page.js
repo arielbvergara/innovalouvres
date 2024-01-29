@@ -28,6 +28,11 @@ export default function Contact() {
     const [messageSize, setMessageSize] = useState('');
     const [emailSuccess, setEmailSuccess] = useState(null)
 
+
+    console.log(process.env.NEXT_PUBLIC_EMAIL_TITLE)
+    console.log(process.env.NEXT_PUBLIC_EMAIL_TO)
+    console.log(process.env.NEXT_PUBLIC_RESEND_API_KEY)
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
         
