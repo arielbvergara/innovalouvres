@@ -2,6 +2,7 @@ import React from "react";
 import {
   Card,
 } from "@material-tailwind/react";
+import Image from "next/image";
 
 
  
@@ -17,7 +18,7 @@ export function ImageModal({src, alt, index, handleOpen, setSelectedImageIndex})
         }}
         key={index}
       >
-        <img
+        <Image
           alt={alt}
           className="h-full w-full object-cover object-center"
           src={src}

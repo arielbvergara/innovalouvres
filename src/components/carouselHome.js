@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 import Loading from "./loading";
 import { ContentContext } from "./app";
+import Image from "next/image";
 
 export default function CarouselHome({}) {
 
@@ -21,7 +22,8 @@ export default function CarouselHome({}) {
         return data.map((item, index) => {
             return (
                 <div className="relative h-full w-full" key={index}>
-                    <img
+                    <Image
+                        fill={true}
                         src={item.src}
                         alt={item.name}
                         className="h-full w-full object-cover"
