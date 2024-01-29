@@ -8,7 +8,7 @@ export async function POST(request) {
     const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
     try{
       resend.emails.send({
-        from: body.emailTo,
+        from: process.env.NEXT_PUBLIC_RESEND_API_USER,
         to: body.emailTo,
         subject: body.subject,
         html: body.otpText
