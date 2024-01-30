@@ -8,8 +8,8 @@ export async function POST(request) {
     const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
     try{
       resend.emails.send({
-        from: process.env.NEXT_PUBLIC_RESEND_API_USER,
-        to: body.emailTo,
+        from: `Innovalouvres<${process.env.NEXT_PUBLIC_RESEND_API_USER}>`,
+        to: process.env.NEXT_PUBLIC_EMAIL_TO,
         subject: body.subject,
         html: body.otpText
       });
