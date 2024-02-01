@@ -72,7 +72,7 @@
             "src":"/roof1.jpg",
             "content":{
                 "title":"NZ made and designed Motorised Louvred Roofs",
-                "description":"Customize your outdoor area to your preferences, whether it's creating a shaded retreat, maximizing sunlight, or finding the perfect balance between the two. Our Louvre system provide a luxurious and adaptable outdoor living solution to your lifestyle."
+                "description":"Customize your outdoor area to your preferences, whether it's creating a shaded retreat, maximizing sunlight, or finding the perfect balance between the two. Our Louvre systems provide a luxurious and adaptable outdoor living solution to your home."
             },
             "type":"carousel"
         },
@@ -82,7 +82,7 @@
             "src":"/roof2.jpg",
             "content":{
                 "title":"Manually operable and fixed louvres privacy screens",
-                "description":"Adjust the louvres to your preferred angle, giving you control over the level of privacy you desire."
+                "description":"Adjust your louvres to your preferred angle, giving you control over the level of privacy you desire."
             },
             "type":"carousel"
         },
@@ -91,7 +91,7 @@
             "name":"image3",
             "src":"/roof3.jpg",
             "content":{
-                "title":"Architectural and Commercial Motorised Louvre roof and fixed louvres",
+                "title":"Architectural and Commercial Motorised Louvred Roof and Fixed Louvres",
                 "description":"Fixed louvres contribute to the architectural aesthetics of a space, adding a stylish and structured element to your outdoor or indoor environment, without the need for adjustable features."
             },
             "type":"carousel"            
