@@ -80,7 +80,7 @@ export default function Contact() {
                         </section>
                         <section className="mx-4 mb-8">
                             <p className="text-lg">
-                                You can send us a message or call us directly <a className="whitespace-nowrap text-light-orange" href="tell:+640212717768">021 271 7768</a>
+                                You can send us a message or call us directly <a className="whitespace-nowrap text-light-orange" href="tel:+640212717768">021 271 7768</a>
                             </p>
                         </section>
                         <section className="mx-4 mb-8">
