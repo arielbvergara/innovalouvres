@@ -79,6 +79,22 @@ export default function Contact() {
                             </p>
                         </section>
                         <section className="mx-4 mb-8">
+                            <p className="text-lg">
+                                You can send us a message or call us directly <a className="whitespace-nowrap text-light-orange" href="tel:+640212717768">021 271 7768</a>
+                            </p>
+                        </section>
+                        <section className="mx-4 mb-8">
+                            <p className="text-lg">
+                               Email us <a className="whitespace-nowrap text-light-orange" href="mailto:info@innovalouvres.co.nz">info@innovalouvres.co.nz</a>
+                            </p>
+                        </section>
+                        <section className="mx-4 mb-8">
+                            <p className="text-lg">
+                                Filling in the following contact form and we will contact you as soon as possible.
+                            </p>
+                        </section>
+                        <section className="mx-4 mb-8">
+                        
                             <form method="post" className="grid grid-cols-1 gap-4 md:grid-cols-2" onSubmit={handleSubmit}>
                                 <div className="col-span-3 mb-4 sm:col-span-1">
                                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">{contactContent.form.name}</label>
