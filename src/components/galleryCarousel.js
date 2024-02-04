@@ -26,6 +26,8 @@ export function GalleryCarousel({ galleryImages, index }) {
                             loading="lazy"
                             height={height}
                             width={width}
+                            placeholder="blur" 
+                            blurDataURL={src}
                         />
                     </div>
                 ))

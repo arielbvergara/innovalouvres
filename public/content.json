@@ -69,7 +69,7 @@
         {
             "id":1,
             "name":"image1",
-            "src":"/roof1.jpg",
+            "src":"/roof1.jpeg",
             "content":{
                 "title":"NZ made and designed Motorised Louvred Roofs",
                 "description":"Customize your outdoor area to your preferences, whether it's creating a shaded retreat, maximizing sunlight, or finding the perfect balance between the two. Our Louvre system provides a luxurious and adaptable outdoor living solution to your home."
@@ -79,7 +79,7 @@
         {
             "id":2,
             "name":"image2",
-            "src":"/roof2.jpg",
+            "src":"/roof2.jpeg",
             "content":{
                 "title":"Manually operable and fixed louvres privacy screens",
                 "description":"Adjust your louvres to your preferred angle, giving you control over the level of privacy you desire."
@@ -89,7 +89,7 @@
         {
             "id":3,
             "name":"image3",
-            "src":"/roof3.jpg",
+            "src":"/roof3.jpeg",
             "content":{
                 "title":"Architectural and Commercial Motorised Louvred Roof and Fixed Louvres",
                 "description":"Fixed louvres contribute to the architectural aesthetics of a space, adding a stylish and structured element to your outdoor or indoor environment, without the need for adjustable features."
@@ -99,32 +99,32 @@
         {
             "id":4,
             "name":"image4",
-            "src":"/roof4.jpg"
+            "src":"/roof4.jpeg"
         },
         {
             "id":5,
             "name":"image5",
-            "src":"/roof5.jpg"
+            "src":"/roof5.jpeg"
         },
         {
             "id":6,
             "name":"image6",
-            "src":"/roof6.jpg"
+            "src":"/roof6.jpeg"
         },   
          {
             "id":7,
             "name":"image7",
-            "src":"/roof7.jpg"
+            "src":"/roof7.jpeg"
         },
         {
             "id":8,
             "name":"image8",
-            "src":"/roof8.jpg"
+            "src":"/roof8.jpeg"
         },
         {
             "id":9,
             "name":"image9",
-            "src":"/roof9.jpg"
+            "src":"/roof9.jpeg"
         }
     ]
 }
