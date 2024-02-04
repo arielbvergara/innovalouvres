@@ -27,6 +27,8 @@ export default function CarouselHome({}) {
                         src={item.src}
                         alt={item.name}
                         className="h-full w-full object-cover"
+                        placeholder="blur" 
+                        blurDataURL={item.src}
                     />
                     <div className="absolute inset-0 grid h-full w-full items-center bg-black/30">
                         <div className="p-5 text-center sm:w-3/4 sm:pl-12 sm:text-start md:w-2/4 md:pl-20 lg:pl-32">

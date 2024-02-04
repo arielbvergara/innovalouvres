@@ -24,6 +24,8 @@ export function ImageModal({src, alt, index, handleOpen, setSelectedImageIndex})
           src={src}
           height={200}
           width={400}
+          placeholder="blur" 
+          blurDataURL={src}
         />
       </Card>
     </>
