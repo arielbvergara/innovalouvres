@@ -8,9 +8,9 @@
             "title": "Welcome to Innovalouvres",
             "subTitle": "Enjoy the convenience of adjusting your louvres with just a touch, effortlessly adapting to changing NZ weather conditions or your desired ambiance. Our exclusive Motorised Louvred Roof with clean lines and sophisticated look, ensures comfort in all seasons. Whether you have a question about our services, want to discuss a project or simply get a quote, feel free to reach out to us.",
             "form":{
-                "name": "Name*",
+                "name": "Name",
                 "email": "Email*",
-                "phone": "Phone number*",
+                "phone": "Phone number",
                 "messageOne": "Let us know what you are after",
                 "messageTwo": "Do you know the sizes of your dreamed louvre? Let us know here!",
                 "send": "Send message"

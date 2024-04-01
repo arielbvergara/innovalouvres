@@ -98,7 +98,7 @@ export default function Contact() {
                             <form method="post" className="grid grid-cols-1 gap-4 md:grid-cols-2" onSubmit={handleSubmit}>
                                 <div className="col-span-3 mb-4 sm:col-span-1">
                                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">{contactContent.form.name}</label>
-                                    <input type="text" id="name" name="name" required value={name} onChange={(e) => {setName(e.target.value)}}
+                                    <input type="text" id="name" name="name" value={name} onChange={(e) => {setName(e.target.value)}}
                                         className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                                 </div>
                                 <div className="col-span-3 mb-4 sm:col-span-1">
@@ -108,17 +108,17 @@ export default function Contact() {
                                 </div>
                                 <div className="col-span-3 mb-4 sm:col-span-1">
                                     <label htmlFor="phone" className="block text-sm font-medium text-gray-700">{contactContent.form.phone}</label>
-                                    <input type="phone" id="phone" name="phone" required value={phone} onChange={(e) => {setPhone(e.target.value)}}
+                                    <input type="phone" id="phone" name="phone" value={phone} onChange={(e) => {setPhone(e.target.value)}}
                                         className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none" />
                                 </div>
                                 <div className="col-span-3 mb-4">
                                     <label htmlFor="message-after" className="block text-sm font-medium text-gray-700">{contactContent.form.messageOne}</label>
-                                    <textarea id="message-after" name="message-after" rows="4" required value={messageAfter} onChange={(e) => {setMessageAfter(e.target.value)}}
+                                    <textarea id="message-after" name="message-after" rows="4" value={messageAfter} onChange={(e) => {setMessageAfter(e.target.value)}}
                                         className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none"></textarea>
                                 </div>
                                 <div className="col-span-3 mb-4">
                                     <label htmlFor="message-size" className="block text-sm font-medium text-gray-700">{contactContent.form.messageTwo}</label>
-                                    <textarea id="message-size" name="message-size" rows="4" required value={messageSize} onChange={(e) => {setMessageSize(e.target.value)}}
+                                    <textarea id="message-size" name="message-size" rows="4" value={messageSize} onChange={(e) => {setMessageSize(e.target.value)}}
                                         className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-orange focus:outline-none"></textarea>
                                 </div>
                                 <div className="col-span-3">
