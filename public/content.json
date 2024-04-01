@@ -125,6 +125,36 @@
             "id":9,
             "name":"image9",
             "src":"/roof9.jpeg"
+        },
+        {
+            "id":10,
+            "name":"image10",
+            "src":"/roof10.jpg"
+        },
+        {
+            "id":11,
+            "name":"image11",
+            "src":"/roof11.jpg"
+        },
+        {
+            "id":12,
+            "name":"image12",
+            "src":"/roof12.jpg"
+        },
+        {
+            "id":13,
+            "name":"image13",
+            "src":"/roof13.jpg"
+        },
+        {
+            "id":14,
+            "name":"image14",
+            "src":"/roof14.jpg"
+        },
+        {
+            "id":15,
+            "name":"image15",
+            "src":"/roof15.jpg"
         }
     ]
 }
