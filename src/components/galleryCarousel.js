@@ -30,14 +30,14 @@ export function GalleryCarousel({ galleryImages, index }) {
         }, [orientation]);
 
     return (
-        <Carousel className="gallery-carousel rounded-xl" >
+        <Carousel className="gallery-carousel" >
             {
                 galleryImages.map(({ src, name, id }, index2) => (
                     <div className="relative" key={index2}>
                         <Image
                             src={src}
                             alt={name}
-                            className={orientation === "landscape-primary" ? "h-[85vh] w-full object-cover lg:h-[85vh]" : "w-full object-cover lg:h-[85vh]" }
+                            className={orientation === "landscape-primary" ? "h-[75vh] w-full object-cover lg:h-[85vh]" : "w-full object-cover lg:h-[85vh]" }
                             key={id}
                             loading="lazy"
                             height={height}

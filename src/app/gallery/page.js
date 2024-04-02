@@ -49,8 +49,8 @@ export default function Gallery({}) {
                 )
             }
 
-            <Dialog size="xl" open={open} handler={handleOpen}>
-                <DialogBody>
+            <Dialog size="xl" open={open} handler={handleOpen} className="rounded-none">
+                <DialogBody className="rounded-none p-0">
                     <GalleryCarousel index={selectedImageIndex} galleryImages={galleryImages}/>
                 </DialogBody>
             </Dialog>

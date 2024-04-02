@@ -11,7 +11,7 @@ export function ImageModal({src, alt, index, handleOpen, setSelectedImageIndex})
   return (
     <>
       <Card
-        className="max-h-48 cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
+        className="max-h-48 cursor-pointer overflow-hidden rounded-md transition-opacity hover:opacity-90"
         onClick={() => {
           handleOpen()
           setSelectedImageIndex(index)
