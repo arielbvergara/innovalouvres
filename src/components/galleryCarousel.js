@@ -1,6 +1,6 @@
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export function GalleryCarousel({ galleryImages, index }) {
 
@@ -13,6 +13,22 @@ export function GalleryCarousel({ galleryImages, index }) {
         },
         [index])
 
+    const [orientation, setOrientation] = useState("");
+    useEffect(() => {
+          // Function to update the orientation state
+          function updateOrientation() {
+            setOrientation(window.screen.orientation.type);
+          }
+          // Initial update of the orientation state
+          updateOrientation();
+          // Add an event listener for orientation change
+          window.addEventListener("orientationchange", updateOrientation);
+          // Clean up the event listener when the component unmounts
+          return () => {
+            window.removeEventListener("orientationchange", updateOrientation);
+          };
+        }, [orientation]);
+
     return (
         <Carousel className="gallery-carousel rounded-xl" >
             {
@@ -21,7 +37,7 @@ export function GalleryCarousel({ galleryImages, index }) {
                         <Image
                             src={src}
                             alt={name}
-                            className="w-full object-cover lg:h-[85vh]"
+                            className={orientation === "landscape-primary" ? "h-[85vh] w-full object-cover lg:h-[85vh]" : "w-full object-cover lg:h-[85vh]" }
                             key={id}
                             loading="lazy"
                             height={height}
