@@ -13,22 +13,6 @@ export function GalleryCarousel({ galleryImages, index }) {
         },
         [index])
 
-    const [orientation, setOrientation] = useState("");
-    useEffect(() => {
-          // Function to update the orientation state
-          function updateOrientation() {
-            setOrientation(window.screen.orientation.type);
-          }
-          // Initial update of the orientation state
-          updateOrientation();
-          // Add an event listener for orientation change
-          window.addEventListener("orientationchange", updateOrientation);
-          // Clean up the event listener when the component unmounts
-          return () => {
-            window.removeEventListener("orientationchange", updateOrientation);
-          };
-        }, [orientation]);
-
     return (
         <Carousel className="gallery-carousel" >
             {
@@ -37,11 +21,11 @@ export function GalleryCarousel({ galleryImages, index }) {
                         <Image
                             src={src}
                             alt={name}
-                            className={orientation === "landscape-primary" ? "h-[75vh] w-full object-cover lg:h-[85vh]" : "w-full object-cover lg:h-[85vh]" }
+                            className={(width < 900 || height < 500) ? "h-[75vh] w-full object-contain lg:h-[85vh]" : "w-full object-cover lg:h-[85vh]" }
                             key={id}
-                            loading="lazy"
                             height={height}
                             width={width}
+                            loading="lazy"
                             placeholder="blur" 
                             blurDataURL={src}
                         />

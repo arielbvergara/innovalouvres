@@ -8,7 +8,7 @@ import { Dialog, DialogBody } from "@material-tailwind/react";
 import { useContext, useEffect, useState } from "react";
 
 export default function Gallery({}) {
-
+    const { innerWidth: width, innerHeight: height } = window;
     const contentContext = useContext(ContentContext)
     const [galleryContent, setGalleryContent] = useState(null);
     const [galleryImages, setGalleryImages] = useState(null);
@@ -49,7 +49,7 @@ export default function Gallery({}) {
                 )
             }
 
-            <Dialog size="xl" open={open} handler={handleOpen} className="rounded-none">
+            <Dialog size="xl" open={open} handler={handleOpen} className={(width < 900 || height < 500) ? "rounded-none bg-transparent":"rounded-none"}>
                 <DialogBody className="rounded-none p-0">
                     <GalleryCarousel index={selectedImageIndex} galleryImages={galleryImages}/>
                 </DialogBody>
