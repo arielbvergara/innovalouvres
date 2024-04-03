@@ -4,11 +4,10 @@ import { ContentContext } from "@/components/app";
 import { GalleryCarousel } from "@/components/galleryCarousel";
 import { ImageModal } from "@/components/imageModal";
 import Loading from "@/components/loading";
-import { Dialog, DialogBody } from "@material-tailwind/react";
 import { useContext, useEffect, useState } from "react";
 
 export default function Gallery({}) {
-
+    
     const contentContext = useContext(ContentContext)
     const [galleryContent, setGalleryContent] = useState(null);
     const [galleryImages, setGalleryImages] = useState(null);
@@ -49,12 +48,8 @@ export default function Gallery({}) {
                 )
             }
 
-            <Dialog size="xl" open={open} handler={handleOpen}>
-                <DialogBody>
-                    <GalleryCarousel index={selectedImageIndex} galleryImages={galleryImages}/>
-                </DialogBody>
-            </Dialog>
-        
+            <GalleryCarousel index={selectedImageIndex} galleryImages={galleryImages} open={open} handleOpen={handleOpen} />
+                
             <footer className="py-8 text-center text-gray-500">
                 <p>{galleryContent.footer}</p>
             </footer>

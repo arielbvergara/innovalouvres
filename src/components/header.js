@@ -20,6 +20,7 @@ export default function Header({sidebarActive, setSidebarActive}) {
                         objectFit="cover"
                         src={'/logo.png'}
                         alt="Logo"
+                        priority={true}
                     />
             </Link>
            </div>
