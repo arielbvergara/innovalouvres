@@ -18,7 +18,9 @@ export function GalleryCarousel({ galleryImages, index, open, handleOpen }) {
     return (
         <Dialog size="xl" open={open} handler={handleOpen} className={(width < 900 || height < 500) ? "rounded-none bg-transparent":"rounded-none"}>
             <DialogBody className="rounded-none p-0">
-                <FontAwesomeIcon icon={faCircleXmark} onClick={handleOpen} className="fa-circle-xmark absolute right-0 z-50 float-right mr-5 text-3xl text-white" />
+            {
+                (width < 900 || height < 500) && <FontAwesomeIcon icon={faCircleXmark} onClick={handleOpen} className="fa-circle-xmark absolute right-0 z-50 float-right mr-5 text-3xl text-white" />
+            }
                 <Carousel className={(width < 900 || height < 500) ? "gallery-carousel mb-12 mt-12" : "gallery-carousel"} >
                     {
                         galleryImages.map(({ src, name, id }, index2) => (
