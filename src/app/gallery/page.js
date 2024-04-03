@@ -24,7 +24,7 @@ export default function Gallery({}) {
 
     return (
         galleryContent ?
-        <div className="container mx-auto min-h-[--body-min-height] overflow-y-auto">
+        <div className="container mx-auto min-h-[--body-min-height]">
             <header className="px-4 py-8 text-center">
                 <h1 className="text-4xl">{galleryContent.title}</h1>
             </header>
