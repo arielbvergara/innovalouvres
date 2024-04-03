@@ -39,3 +39,7 @@ input:focus, textarea:focus, select:focus{
 .alert > button {
     color: gray;
 }
+
+.place-items-center.fixed.w-screen{
+    overflow-y: auto;
+}
