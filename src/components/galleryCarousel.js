@@ -28,7 +28,7 @@ export function GalleryCarousel({ galleryImages, index, open, handleOpen }) {
                                 <Image
                                     src={src}
                                     alt={name}
-                                    className={(width < 900 || height < 500) ? "h-[95vh] w-full object-contain" : "w-full object-cover lg:h-[85vh]" }
+                                    className={(width < 900 || height < 500) ? "h-[90vh] w-full object-contain" : "w-full object-cover lg:h-[85vh]" }
                                     key={id}
                                     height={height}
                                     width={width}
