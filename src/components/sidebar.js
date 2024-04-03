@@ -18,7 +18,7 @@ const path = usePathname()
 
 return (
     sidebarActive &&
-        <Card className="absolute z-50 h-[100vh] w-full p-4 shadow-xl shadow-blue-gray-900/5 duration-300 sm:max-w-[20rem]">
+        <Card className="card-custom absolute h-[100vh] w-full p-4 shadow-xl shadow-blue-gray-900/5 duration-300 sm:max-w-[20rem]">
             <div className="mb-2 flex p-4">
                 <Typography variant="h5" className="text-orange">
                     Innovalouvres
