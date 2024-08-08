@@ -18,7 +18,7 @@ export default function Header({sidebarActive, setSidebarActive}) {
                         width={150}
                         height={150}
                         objectFit="cover"
-                        src={'/logo.png'}
+                        src={'/logo.jpeg'}
                         alt="Logo"
                         priority={true}
                     />
